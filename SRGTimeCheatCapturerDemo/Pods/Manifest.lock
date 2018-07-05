@@ -1,0 +1,24 @@
+PODS:
+  - Reachability (3.2)
+  - SRGTimeCheatCapturer (0.0.1):
+    - Reachability (= 3.2)
+
+DEPENDENCIES:
+  - Reachability
+  - SRGTimeCheatCapturer (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Reachability
+
+EXTERNAL SOURCES:
+  SRGTimeCheatCapturer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SRGTimeCheatCapturer: 1f6f743e5b8f4ef03ef6518fa2b427dea61b5b72
+
+PODFILE CHECKSUM: 709e85e6a13e6cea9a1cbcddbd153a94b1286e6d
+
+COCOAPODS: 1.5.2

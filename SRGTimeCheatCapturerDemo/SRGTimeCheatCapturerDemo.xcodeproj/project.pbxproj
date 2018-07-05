@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		245CD6EA46808E02F527D105 /* libPods-SRGTimeCheatCapturerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8867CE326F4339CAEA055A /* libPods-SRGTimeCheatCapturerDemo.a */; };
 		24E3B9C01A750F6400DD7749 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E3B9BF1A750F6400DD7749 /* main.m */; };
 		24E3B9C31A750F6400DD7749 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E3B9C21A750F6400DD7749 /* AppDelegate.m */; };
 		24E3B9C61A750F6400DD7749 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E3B9C51A750F6400DD7749 /* ViewController.m */; };
@@ -30,6 +31,7 @@
 		24E3BA191A750FCD00DD7749 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 24E3BA081A750FCD00DD7749 /* .gitignore */; };
 		24E3BA1A1A750FCD00DD7749 /* rfc5905.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 24E3BA091A750FCD00DD7749 /* rfc5905.pdf */; };
 		24E3BA291A75131200DD7749 /* SRGTimeCheatCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E3BA281A75131200DD7749 /* SRGTimeCheatCapturer.m */; };
+		4E199B54E70B1DE8B6101C18 /* libPods-SRGTimeCheatCapturerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB05D65680EEBA89F0C63E7 /* libPods-SRGTimeCheatCapturerDemoTests.a */; };
 		E480792C2D5E8B33258AFABC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9CA44C604AA80371A9C01F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CB05D65680EEBA89F0C63E7 /* libPods-SRGTimeCheatCapturerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SRGTimeCheatCapturerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21CDAD055DB2392E11530021 /* Pods-SRGTimeCheatCapturerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRGTimeCheatCapturerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SRGTimeCheatCapturerDemo/Pods-SRGTimeCheatCapturerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		24E3B9BA1A750F6400DD7749 /* SRGTimeCheatCapturerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRGTimeCheatCapturerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E3B9BE1A750F6400DD7749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24E3B9BF1A750F6400DD7749 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -80,9 +84,13 @@
 		24E3BA091A750FCD00DD7749 /* rfc5905.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = rfc5905.pdf; sourceTree = "<group>"; };
 		24E3BA271A75131200DD7749 /* SRGTimeCheatCapturer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRGTimeCheatCapturer.h; sourceTree = "<group>"; };
 		24E3BA281A75131200DD7749 /* SRGTimeCheatCapturer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRGTimeCheatCapturer.m; sourceTree = "<group>"; };
+		29D8A438D85C568375ABE139 /* Pods-SRGTimeCheatCapturerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRGTimeCheatCapturerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SRGTimeCheatCapturerDemoTests/Pods-SRGTimeCheatCapturerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3847E404BCCB47630A47F5FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		4303AB4069CCB1B580230F1D /* Pods-SRGTimeCheatCapturerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRGTimeCheatCapturerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SRGTimeCheatCapturerDemo/Pods-SRGTimeCheatCapturerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		5A9CA44C604AA80371A9C01F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD75D456E5BDFDC0578B0CD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CF07C7F84276646278A5DB6A /* Pods-SRGTimeCheatCapturerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRGTimeCheatCapturerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SRGTimeCheatCapturerDemoTests/Pods-SRGTimeCheatCapturerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE8867CE326F4339CAEA055A /* libPods-SRGTimeCheatCapturerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SRGTimeCheatCapturerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +99,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E480792C2D5E8B33258AFABC /* libPods.a in Frameworks */,
+				245CD6EA46808E02F527D105 /* libPods-SRGTimeCheatCapturerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E199B54E70B1DE8B6101C18 /* libPods-SRGTimeCheatCapturerDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +262,10 @@
 			children = (
 				3847E404BCCB47630A47F5FC /* Pods.debug.xcconfig */,
 				9FD75D456E5BDFDC0578B0CD /* Pods.release.xcconfig */,
+				4303AB4069CCB1B580230F1D /* Pods-SRGTimeCheatCapturerDemo.debug.xcconfig */,
+				21CDAD055DB2392E11530021 /* Pods-SRGTimeCheatCapturerDemo.release.xcconfig */,
+				29D8A438D85C568375ABE139 /* Pods-SRGTimeCheatCapturerDemoTests.debug.xcconfig */,
+				CF07C7F84276646278A5DB6A /* Pods-SRGTimeCheatCapturerDemoTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -260,6 +274,8 @@
 			isa = PBXGroup;
 			children = (
 				5A9CA44C604AA80371A9C01F /* libPods.a */,
+				DE8867CE326F4339CAEA055A /* libPods-SRGTimeCheatCapturerDemo.a */,
+				0CB05D65680EEBA89F0C63E7 /* libPods-SRGTimeCheatCapturerDemoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -271,11 +287,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24E3B9DD1A750F6400DD7749 /* Build configuration list for PBXNativeTarget "SRGTimeCheatCapturerDemo" */;
 			buildPhases = (
+				25D628D7E847704C31A6E99B /* [CP] Check Pods Manifest.lock */,
 				29DF161B15CFC12BBD5C6187 /* Check Pods Manifest.lock */,
 				24E3B9B61A750F6400DD7749 /* Sources */,
 				24E3B9B71A750F6400DD7749 /* Frameworks */,
 				24E3B9B81A750F6400DD7749 /* Resources */,
-				73CAA46FE4FEB08DA1EFFD78 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -290,6 +306,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24E3B9E01A750F6400DD7749 /* Build configuration list for PBXNativeTarget "SRGTimeCheatCapturerDemoTests" */;
 			buildPhases = (
+				0E87DE513D4F38A46676F4E1 /* [CP] Check Pods Manifest.lock */,
 				24E3B9CF1A750F6400DD7749 /* Sources */,
 				24E3B9D01A750F6400DD7749 /* Frameworks */,
 				24E3B9D11A750F6400DD7749 /* Resources */,
@@ -372,6 +389,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0E87DE513D4F38A46676F4E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SRGTimeCheatCapturerDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25D628D7E847704C31A6E99B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SRGTimeCheatCapturerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		29DF161B15CFC12BBD5C6187 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -385,21 +438,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		73CAA46FE4FEB08DA1EFFD78 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -561,7 +599,7 @@
 		};
 		24E3B9DE1A750F6400DD7749 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3847E404BCCB47630A47F5FC /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 4303AB4069CCB1B580230F1D /* Pods-SRGTimeCheatCapturerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/../Library/ios-ntp-master/ios-ntp-lib/ios-ntp.pch";
@@ -574,7 +612,7 @@
 		};
 		24E3B9DF1A750F6400DD7749 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FD75D456E5BDFDC0578B0CD /* Pods.release.xcconfig */;
+			baseConfigurationReference = 21CDAD055DB2392E11530021 /* Pods-SRGTimeCheatCapturerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/../Library/ios-ntp-master/ios-ntp-lib/ios-ntp.pch";
@@ -587,6 +625,7 @@
 		};
 		24E3B9E11A750F6400DD7749 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D8A438D85C568375ABE139 /* Pods-SRGTimeCheatCapturerDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -606,6 +645,7 @@
 		};
 		24E3B9E21A750F6400DD7749 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF07C7F84276646278A5DB6A /* Pods-SRGTimeCheatCapturerDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
