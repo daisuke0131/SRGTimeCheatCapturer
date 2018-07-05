@@ -65,7 +65,10 @@
 /*┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
   │ .. and fill that array with the time hosts obtained from "ntp.hosts" ..                          │
   └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
-    [[[NSOperationQueue alloc] init] addOperation:[[NSInvocationOperation alloc]
+    NSOperationQueue *operationQueue = [[NSOperationQueue alloc] init];
+    operationQueue.qualityOfService = NSQualityOfServiceBackground;
+    
+    [operationQueue addOperation:[[NSInvocationOperation alloc]
                                                   initWithTarget:self
                                                         selector:@selector(createAssociations)
                                                           object:nil]];
@@ -190,7 +193,10 @@
         return;
     }
     if( timeAssociations.count == 0 ){
-        [[[NSOperationQueue alloc] init] addOperation:[[NSInvocationOperation alloc]
+        NSOperationQueue *operationQueue = [[NSOperationQueue alloc] init];
+        operationQueue.qualityOfService = NSQualityOfServiceBackground;
+        
+        [operationQueue addOperation:[[NSInvocationOperation alloc]
                                                   initWithTarget:self
                                                         selector:@selector(createAssociations)
                                                           object:nil]];
