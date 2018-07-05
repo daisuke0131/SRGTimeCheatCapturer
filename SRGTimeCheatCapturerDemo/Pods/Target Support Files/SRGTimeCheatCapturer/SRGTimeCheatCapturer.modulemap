@@ -1,0 +1,6 @@
+framework module SRGTimeCheatCapturer {
+  umbrella header "SRGTimeCheatCapturer-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,6 +1,6 @@
 PODS:
   - Reachability (3.2)
-  - SRGTimeCheatCapturer (0.0.1):
+  - SRGTimeCheatCapturer (0.0.2):
     - Reachability (= 3.2)
 
 DEPENDENCIES:
@@ -17,8 +17,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
-  SRGTimeCheatCapturer: 1f6f743e5b8f4ef03ef6518fa2b427dea61b5b72
+  SRGTimeCheatCapturer: 900732da7df126b5e781b4e16f452724499e44ec
 
-PODFILE CHECKSUM: 709e85e6a13e6cea9a1cbcddbd153a94b1286e6d
+PODFILE CHECKSUM: f930287e60b8efbd0fef0b15c45226338a8ddd23
 
 COCOAPODS: 1.5.2

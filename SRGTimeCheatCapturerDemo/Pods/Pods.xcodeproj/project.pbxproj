@@ -7,237 +7,260 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		025ED7869C53AEBE70DC99FF1FA26FA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */; };
-		06C3C0189D69892D60DD0170820DA7C9 /* SRGTimeCheatCapturer.h in Headers */ = {isa = PBXBuildFile; fileRef = 867C786324D1B8BABCDA19265B59664C /* SRGTimeCheatCapturer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		12F7DAA3A9D167248507DCC607600496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */; };
-		20719D4201D9BC4DEEFE18E5DF3024BA /* NetAssociation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC6A1ECD7464647042B8479EE8B65D6 /* NetAssociation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		20FC6E37105427CC392F00ACE55BAA1A /* NSDate+NetworkClock.h in Headers */ = {isa = PBXBuildFile; fileRef = 68ECB8654DE01C4FEAA693FFE376127F /* NSDate+NetworkClock.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		52CCADA5BFDFDF9396C789458566FA25 /* ios-ntp.h in Headers */ = {isa = PBXBuildFile; fileRef = F2C8B09AD077D25C193B94BE57F674D8 /* ios-ntp.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		62C085C4C8D5A606AC4CC8F1AC4241D6 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A2A70CB6AB8500885AFDAB18D35A12 /* Reachability.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		634A7663D97F84B5F12FDAEDE021B090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */; };
-		694390E39EF92D305724095A46C991E3 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 897D83E681BE52EFAB5113B054657F50 /* GCDAsyncUdpSocket.m */; };
-		75A3F3D72B0ADA39C3155BFB0280EA94 /* SRGTimeCheatCapturer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D690EB8F783AA16D605EE04A856FBF /* SRGTimeCheatCapturer-dummy.m */; };
-		7C24505A448AAC879F4A07019D623428 /* NetworkClock.h in Headers */ = {isa = PBXBuildFile; fileRef = 02971FFD707FBB8FFC9D099344D170DB /* NetworkClock.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8C920E192DD41DB172464161F7B560E8 /* NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BC3E2FCF072163BF7EC8930FE31E1A /* NetworkClock.m */; };
-		8F20971CBB2E92B212772A2942C4B50A /* NSDate+NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A170542974A83B4BCDB0453FA8FF5D /* NSDate+NetworkClock.m */; };
-		9363ADE5C77C5F1985B89B6542B52FDC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AF9EC704AAD470CAC8FE0D05A5430B /* SystemConfiguration.framework */; };
-		A282AEC07E3058FB7529942ACC9E94D7 /* NetAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = F25D262850BEB0649D6476DA12C90BE4 /* NetAssociation.m */; };
-		A73496DD0730470A70DA43952E57E987 /* SRGTimeCheatCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D8A62B01DE84C2BBD8D17F2AAFD279 /* SRGTimeCheatCapturer.m */; };
-		AAF90D2811A0B7AD804D0247F4E9D2A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */; };
-		B1303F45AB521D89A4EA1238C976EB9F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7587CE669F43043C23D8EA6BDEA80A /* Reachability.m */; };
-		BB2E628FA35FDB78434ABEB2DDE506B4 /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9156B5D7AD191B1D50947D7C4A9C5 /* Reachability-dummy.m */; };
-		D2D0B1493F472C473FB12A73BC13C2B1 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 474773A3D1039D8D3DC93916E36AEFBE /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E635DF4E33571FFEC1F3F2F6A6A08433 /* Pods-SRGTimeCheatCapturerDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6F59AC5B02ADB80C2735042C0FBC7C /* Pods-SRGTimeCheatCapturerDemoTests-dummy.m */; };
-		ED9FAEDD80DF69A8A1376A259CA7E0E0 /* Pods-SRGTimeCheatCapturerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B9288F3641F40AB14D65118A64637B /* Pods-SRGTimeCheatCapturerDemo-dummy.m */; };
+		010D01AB71DEE4C30CFE72E9EF2940C0 /* SRGTimeCheatCapturer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20358AABE828300E9F36B0FE635939D9 /* SRGTimeCheatCapturer-dummy.m */; };
+		0D5B4AD06CB01DCD857967EF50B4B342 /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE610CD6E225270CA6F4F40187EDC900 /* Reachability-dummy.m */; };
+		133E48F4594F23ABDE38B32B231AB0A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BDCA8222186AAE6772023FF85CD770 /* Foundation.framework */; };
+		170E9761BDD6E903461011F09FA32987 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A37CCE8B305B51BF5D9D5BBAE395A2 /* Reachability.framework */; };
+		190523FF9172F19BF404082D5F370414 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BDCA8222186AAE6772023FF85CD770 /* Foundation.framework */; };
+		1E08C7C32B096BB40AD3DBADBEBB10C0 /* SRGTimeCheatCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = C31987704E0364C49B6218C8E4486D6C /* SRGTimeCheatCapturer.m */; };
+		1FF726AFA98A8772C57F3748BF12F40C /* NetAssociation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EFE8793FD2683574C9850308EA7545C /* NetAssociation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3126153D96D65071A91DAE63B432D609 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BDCA8222186AAE6772023FF85CD770 /* Foundation.framework */; };
+		3BD8D8F53E7A17B31585DE7C83391681 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D34F4CDC64DC5D3F5FC1CD5E4F71579B /* Reachability.m */; };
+		4C76D5C3B7A40AA193F77418D6FE6689 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A936234CB17B250090CB411E06DF362 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F4DEBB5C2C6014DABCFCEF45B47D469 /* Reachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6985CF3C69F0CBED68BE2E955A31F555 /* Reachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EE07829F9377F2BF3D6879656189B97 /* Pods-SRGTimeCheatCapturerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 497A8E2753BCBECB7E9F0706F98E9570 /* Pods-SRGTimeCheatCapturerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		604536663C7A17025B558459FEC16B6A /* Pods-SRGTimeCheatCapturerDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E5D3A797FA595FC160BEFFAE7D30D6 /* Pods-SRGTimeCheatCapturerDemoTests-dummy.m */; };
+		79CD81D92203BC09A9AC902EDEA73F81 /* Pods-SRGTimeCheatCapturerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA8A35595402C0CB93F1C85A009EC49 /* Pods-SRGTimeCheatCapturerDemo-dummy.m */; };
+		8125B3CB5E57AE320813AD511755E10F /* NSDate+NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D590DD1E4C10FFD5928DC26AAFDED60 /* NSDate+NetworkClock.m */; };
+		AC56A04F73EA40E4E41BF555184EC9EF /* SRGTimeCheatCapturer.h in Headers */ = {isa = PBXBuildFile; fileRef = 03A1150299FC0DFC8ADD8C8E0EDF9603 /* SRGTimeCheatCapturer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B173860400350A0A98CDB83CE6F19479 /* NetAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = A139C6D6D0AB93BC5D5AD42FB7B93D47 /* NetAssociation.m */; };
+		D0B6A35B3C523035BD0040340C20649B /* NetworkClock.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D678056488541D45AFA45D3C560167 /* NetworkClock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5A439C6D9B9E69E28453FC18749C952 /* SRGTimeCheatCapturer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE211942A5C8930B17B949457406158 /* SRGTimeCheatCapturer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6C44AE529FC81295326A70FFE29416F /* Pods-SRGTimeCheatCapturerDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 769236F7903430DFB84314D10200E9D0 /* Pods-SRGTimeCheatCapturerDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D90579BAA3B2AAB6FE8ADFCFB8DBD9A8 /* NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 336FB5A6BCC7732CD7B0C2BB189E777E /* NetworkClock.m */; };
+		D92144803F895F3F346EEFEA2375203D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA04E63878EDA4387CC9AC461314528 /* SystemConfiguration.framework */; };
+		E3D34FF6F80BC5062DAF188B491E3725 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD1E6B8D93318A5AD2A156C401D40AE /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0D013F81E46DD3899143FDE65B68628 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D230D7FE8E07F670E7F3A6995C1B34 /* GCDAsyncUdpSocket.m */; };
+		F66A1EBDD8D0914A788303AD2E32E739 /* NSDate+NetworkClock.h in Headers */ = {isa = PBXBuildFile; fileRef = C19BBE0383CDFAE07A8D6D6F3E41B606 /* NSDate+NetworkClock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F86E8FFF122D3B415BC9E9A0E4DCE1A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BDCA8222186AAE6772023FF85CD770 /* Foundation.framework */; };
+		FEC4995D2D5D399B3663F790860ED514 /* ios-ntp.h in Headers */ = {isa = PBXBuildFile; fileRef = 01166513C9520E19EC365B7D46B8ED69 /* ios-ntp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		04CCCAD93249FA0500A8D2E4D78BB972 /* PBXContainerItemProxy */ = {
+		1ABFBA218202FCA15441169E97357880 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B99B7AE38041A6BC0DAB7E08417F1774;
+			remoteGlobalIDString = 16CDAC77089CFA64C77D88C73949F636;
+			remoteInfo = Reachability;
+		};
+		4FC0545F7C91BD975771413DD742DD76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 938722CCA20C88979150E44A76D8A4A6;
 			remoteInfo = SRGTimeCheatCapturer;
 		};
-		67DFFD01A3B9CC05EA3597BF91016B5F /* PBXContainerItemProxy */ = {
+		8AADF096C0D3E32A949A03DBF466189D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EDC36975B32B0B4AACB2889B7AA13CD8;
+			remoteGlobalIDString = 16CDAC77089CFA64C77D88C73949F636;
 			remoteInfo = Reachability;
 		};
-		92F6CA9897757718769F23D9A4272212 /* PBXContainerItemProxy */ = {
+		DD2B07821DF2F72463C2EF6B5C7D3273 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EDC36975B32B0B4AACB2889B7AA13CD8;
-			remoteInfo = Reachability;
-		};
-		D74C68F53CFCC8CB2F90915AB004DD73 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 75F6C9D5EEDE9C725A41292DBF556BA0;
+			remoteGlobalIDString = E08943D8DCDC53C972160285B01E014F;
 			remoteInfo = "Pods-SRGTimeCheatCapturerDemo";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00A2A70CB6AB8500885AFDAB18D35A12 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		0283C2DCFD537BE0C447383A6BFBFFA1 /* SRGTimeCheatCapturer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRGTimeCheatCapturer-prefix.pch"; sourceTree = "<group>"; };
-		02971FFD707FBB8FFC9D099344D170DB /* NetworkClock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NetworkClock.h; sourceTree = "<group>"; };
-		09E80A36C6CD46B7F3D7F5A056B41016 /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
-		0A42B01A67AC3449179DB2753CA553AC /* Pods-SRGTimeCheatCapturerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SRGTimeCheatCapturerDemo-frameworks.sh"; sourceTree = "<group>"; };
-		1819E440DF31CBCFDC5CF00B8B9B20A8 /* Pods-SRGTimeCheatCapturerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRGTimeCheatCapturerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		1A2F81238667DAD0441D9E7F1024C0F2 /* Pods-SRGTimeCheatCapturerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SRGTimeCheatCapturerDemo-resources.sh"; sourceTree = "<group>"; };
-		1E0B3822B8CAB305FB9091191C83F1E1 /* Pods-SRGTimeCheatCapturerDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SRGTimeCheatCapturerDemoTests-frameworks.sh"; sourceTree = "<group>"; };
-		1EC9156B5D7AD191B1D50947D7C4A9C5 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
-		22D8A62B01DE84C2BBD8D17F2AAFD279 /* SRGTimeCheatCapturer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SRGTimeCheatCapturer.m; sourceTree = "<group>"; };
-		30C923BF7285F61FC1683FFD16241982 /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libReachability.a; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BDE187A736DCB9A6E34E45C0CEB6B61 /* Pods-SRGTimeCheatCapturerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRGTimeCheatCapturerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		474773A3D1039D8D3DC93916E36AEFBE /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		4980E5ED19D0D32D218D0DF336C02034 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		50B22C6FCDABD74C7731D816056B557F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		594567C302F1A88F01730F2213F2F882 /* Pods-SRGTimeCheatCapturerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRGTimeCheatCapturerDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		5C05109A1FE8BC06137566DA5FB97503 /* Pods-SRGTimeCheatCapturerDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SRGTimeCheatCapturerDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5E0436EEFDFE4D48AF7E2CA64E5DB1A1 /* Pods-SRGTimeCheatCapturerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SRGTimeCheatCapturerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		61A3ECCC1C8E826BFDF04882AD011CEF /* SRGTimeCheatCapturer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SRGTimeCheatCapturer.xcconfig; sourceTree = "<group>"; };
-		65D45D25D2F354E4839BE8E0652A8BA8 /* libPods-SRGTimeCheatCapturerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SRGTimeCheatCapturerDemo.a"; path = "libPods-SRGTimeCheatCapturerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		68ECB8654DE01C4FEAA693FFE376127F /* NSDate+NetworkClock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+NetworkClock.h"; sourceTree = "<group>"; };
-		69B9288F3641F40AB14D65118A64637B /* Pods-SRGTimeCheatCapturerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SRGTimeCheatCapturerDemo-dummy.m"; sourceTree = "<group>"; };
-		78D690EB8F783AA16D605EE04A856FBF /* SRGTimeCheatCapturer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SRGTimeCheatCapturer-dummy.m"; sourceTree = "<group>"; };
-		7C6F59AC5B02ADB80C2735042C0FBC7C /* Pods-SRGTimeCheatCapturerDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SRGTimeCheatCapturerDemoTests-dummy.m"; sourceTree = "<group>"; };
-		7CFBD9E0443B8E70D10D66B7960DA865 /* Pods-SRGTimeCheatCapturerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRGTimeCheatCapturerDemo.release.xcconfig"; sourceTree = "<group>"; };
-		7D9622F9C4AC8F2BB820BA419B0F4FCA /* libSRGTimeCheatCapturer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSRGTimeCheatCapturer.a; path = libSRGTimeCheatCapturer.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E52A6F358961FE1571E0F7D26425962 /* Pods-SRGTimeCheatCapturerDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SRGTimeCheatCapturerDemoTests-resources.sh"; sourceTree = "<group>"; };
-		867C786324D1B8BABCDA19265B59664C /* SRGTimeCheatCapturer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SRGTimeCheatCapturer.h; sourceTree = "<group>"; };
-		897D83E681BE52EFAB5113B054657F50 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		8CC6A1ECD7464647042B8479EE8B65D6 /* NetAssociation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NetAssociation.h; sourceTree = "<group>"; };
-		91BC3E2FCF072163BF7EC8930FE31E1A /* NetworkClock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NetworkClock.m; sourceTree = "<group>"; };
+		01166513C9520E19EC365B7D46B8ED69 /* ios-ntp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ios-ntp.h"; sourceTree = "<group>"; };
+		03A1150299FC0DFC8ADD8C8E0EDF9603 /* SRGTimeCheatCapturer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SRGTimeCheatCapturer.h; sourceTree = "<group>"; };
+		07E7E4D5C54BC540C06CC171C2B9DD0D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0F32EFE21CEC8D24E442E2673B77D3F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12765891619778586979657AF20DA855 /* Pods-SRGTimeCheatCapturerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SRGTimeCheatCapturerDemo.modulemap"; sourceTree = "<group>"; };
+		14D230D7FE8E07F670E7F3A6995C1B34 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		15957A6BDDCB93ADF7E4305F838A85B0 /* Pods-SRGTimeCheatCapturerDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SRGTimeCheatCapturerDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		16D85C95846C16BF86A8FA63EF8AB417 /* SRGTimeCheatCapturer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SRGTimeCheatCapturer.modulemap; sourceTree = "<group>"; };
+		1EFE8793FD2683574C9850308EA7545C /* NetAssociation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NetAssociation.h; sourceTree = "<group>"; };
+		20358AABE828300E9F36B0FE635939D9 /* SRGTimeCheatCapturer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SRGTimeCheatCapturer-dummy.m"; sourceTree = "<group>"; };
+		23C02CFFF71ECAC2E4E800AC5CBFA367 /* Pods-SRGTimeCheatCapturerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SRGTimeCheatCapturerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D590DD1E4C10FFD5928DC26AAFDED60 /* NSDate+NetworkClock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NetworkClock.m"; sourceTree = "<group>"; };
+		336FB5A6BCC7732CD7B0C2BB189E777E /* NetworkClock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NetworkClock.m; sourceTree = "<group>"; };
+		36D76688AB1109E92227EA6D2525DF28 /* SRGTimeCheatCapturer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SRGTimeCheatCapturer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		38251FACF473A6D64697BDCE731692CA /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
+		45CA6389887A081DA0AFA2E19EF06A05 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4776789F9F777FC5239B8731B047779A /* Pods-SRGTimeCheatCapturerDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SRGTimeCheatCapturerDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		497A8E2753BCBECB7E9F0706F98E9570 /* Pods-SRGTimeCheatCapturerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SRGTimeCheatCapturerDemo-umbrella.h"; sourceTree = "<group>"; };
+		4CD1E6B8D93318A5AD2A156C401D40AE /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		4E56E4FECBF22671DE3A389D3A93ED67 /* Pods-SRGTimeCheatCapturerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRGTimeCheatCapturerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		51522405EBCEA58D1D9085D3361F956F /* Pods-SRGTimeCheatCapturerDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SRGTimeCheatCapturerDemoTests-resources.sh"; sourceTree = "<group>"; };
+		52365ED904B15B2FEEEF78ED33A0D3CD /* SRGTimeCheatCapturer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SRGTimeCheatCapturer.xcconfig; sourceTree = "<group>"; };
+		5E43F68C0A16B484829F2E1CA30FE9E7 /* Pods-SRGTimeCheatCapturerDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SRGTimeCheatCapturerDemoTests.modulemap"; sourceTree = "<group>"; };
+		62AE8E7F1B3CC82F505FDF01A8FBB906 /* Pods-SRGTimeCheatCapturerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SRGTimeCheatCapturerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		64A37CCE8B305B51BF5D9D5BBAE395A2 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BDCA8222186AAE6772023FF85CD770 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		693DAC84B2A0E7A92D1550728CBFEDBF /* SRGTimeCheatCapturer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRGTimeCheatCapturer-prefix.pch"; sourceTree = "<group>"; };
+		6985CF3C69F0CBED68BE2E955A31F555 /* Reachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-umbrella.h"; sourceTree = "<group>"; };
+		6AACB193FC42884FDB6D7684125EF64E /* Pods-SRGTimeCheatCapturerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRGTimeCheatCapturerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		73D678056488541D45AFA45D3C560167 /* NetworkClock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NetworkClock.h; sourceTree = "<group>"; };
+		769236F7903430DFB84314D10200E9D0 /* Pods-SRGTimeCheatCapturerDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SRGTimeCheatCapturerDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		785CE5B7A9ED3FE0BE6031C39E1AED7B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7A936234CB17B250090CB411E06DF362 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		87D9915DFDA580FEA23EC7D4C6CB8543 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8800ED0D52F667CC376F05C5803EA889 /* Pods-SRGTimeCheatCapturerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SRGTimeCheatCapturerDemo-frameworks.sh"; sourceTree = "<group>"; };
+		8AA04E63878EDA4387CC9AC461314528 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		8CC920FF5A8B28ACED4B6D42372A315D /* Pods-SRGTimeCheatCapturerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRGTimeCheatCapturerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A691BAB494054BBD890834EDF6D257FC /* libPods-SRGTimeCheatCapturerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SRGTimeCheatCapturerDemoTests.a"; path = "libPods-SRGTimeCheatCapturerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC68EF328EC1FBAD41D9F4FD781DBAE8 /* SRGTimeCheatCapturer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SRGTimeCheatCapturer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AF7587CE669F43043C23D8EA6BDEA80A /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		BC530763809E73A09B26AD71B3B706F9 /* Pods-SRGTimeCheatCapturerDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SRGTimeCheatCapturerDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C2D17CCC62FA18B4EE100394AF69DC45 /* Pods-SRGTimeCheatCapturerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SRGTimeCheatCapturerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		E3A170542974A83B4BCDB0453FA8FF5D /* NSDate+NetworkClock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NetworkClock.m"; sourceTree = "<group>"; };
-		F173ABEF1F58F3FEC9F57DA9B0C7796B /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
-		F25D262850BEB0649D6476DA12C90BE4 /* NetAssociation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NetAssociation.m; sourceTree = "<group>"; };
-		F2AF9EC704AAD470CAC8FE0D05A5430B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		F2C8B09AD077D25C193B94BE57F674D8 /* ios-ntp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ios-ntp.h"; sourceTree = "<group>"; };
+		9AB933D295E175A3690CA0F30D3DE9A9 /* Pods_SRGTimeCheatCapturerDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SRGTimeCheatCapturerDemoTests.framework; path = "Pods-SRGTimeCheatCapturerDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE211942A5C8930B17B949457406158 /* SRGTimeCheatCapturer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRGTimeCheatCapturer-umbrella.h"; sourceTree = "<group>"; };
+		9E52A59DF14AED4BD8B3A53E140A0C1B /* Reachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Reachability.modulemap; sourceTree = "<group>"; };
+		9FBE4AC45E6220586C0B94C44E0B22DA /* Pods-SRGTimeCheatCapturerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRGTimeCheatCapturerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A139C6D6D0AB93BC5D5AD42FB7B93D47 /* NetAssociation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NetAssociation.m; sourceTree = "<group>"; };
+		A3BAC1114905B3F01B90ADCD7093AC83 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B288240635EAB98E72F9425A40702D /* Pods_SRGTimeCheatCapturerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SRGTimeCheatCapturerDemo.framework; path = "Pods-SRGTimeCheatCapturerDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA8A35595402C0CB93F1C85A009EC49 /* Pods-SRGTimeCheatCapturerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SRGTimeCheatCapturerDemo-dummy.m"; sourceTree = "<group>"; };
+		C0E5D3A797FA595FC160BEFFAE7D30D6 /* Pods-SRGTimeCheatCapturerDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SRGTimeCheatCapturerDemoTests-dummy.m"; sourceTree = "<group>"; };
+		C19BBE0383CDFAE07A8D6D6F3E41B606 /* NSDate+NetworkClock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+NetworkClock.h"; sourceTree = "<group>"; };
+		C31987704E0364C49B6218C8E4486D6C /* SRGTimeCheatCapturer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SRGTimeCheatCapturer.m; sourceTree = "<group>"; };
+		CF3782575BDC1B18A901C9D8361DEE49 /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
+		D0D92F8B5597E061A62F2377960F4710 /* Pods-SRGTimeCheatCapturerDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SRGTimeCheatCapturerDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D34F4CDC64DC5D3F5FC1CD5E4F71579B /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		D863DA8FB3E48B0B3B7715099577A8E6 /* SRGTimeCheatCapturer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SRGTimeCheatCapturer.framework; path = SRGTimeCheatCapturer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F11F06AF5146B3A1AADD50D6EA9771 /* Pods-SRGTimeCheatCapturerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SRGTimeCheatCapturerDemo-resources.sh"; sourceTree = "<group>"; };
+		FB63F9E947BA512E69EF8DA4B2664AC6 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE610CD6E225270CA6F4F40187EDC900 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7EDEC42B8A3FB925AA0C84C02FCEBFA7 /* Frameworks */ = {
+		9CD427257C6B15256AC379938A795DB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12F7DAA3A9D167248507DCC607600496 /* Foundation.framework in Frameworks */,
-				9363ADE5C77C5F1985B89B6542B52FDC /* SystemConfiguration.framework in Frameworks */,
+				F86E8FFF122D3B415BC9E9A0E4DCE1A9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC4B23ED6B1D60A7AD70581200E39A38 /* Frameworks */ = {
+		BC56E3ECC54803C684C28C758875C8B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				634A7663D97F84B5F12FDAEDE021B090 /* Foundation.framework in Frameworks */,
+				133E48F4594F23ABDE38B32B231AB0A8 /* Foundation.framework in Frameworks */,
+				D92144803F895F3F346EEFEA2375203D /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8A449321EBF240C9D49EAB0BDB511E9 /* Frameworks */ = {
+		C8209E1F601138CC2B83E2D66BB9DD6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAF90D2811A0B7AD804D0247F4E9D2A4 /* Foundation.framework in Frameworks */,
+				190523FF9172F19BF404082D5F370414 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4576866FD3238CAD006EA939C25F7B8 /* Frameworks */ = {
+		F38C3B0966EE441A5982EE8510A695EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				025ED7869C53AEBE70DC99FF1FA26FA6 /* Foundation.framework in Frameworks */,
+				3126153D96D65071A91DAE63B432D609 /* Foundation.framework in Frameworks */,
+				170E9761BDD6E903461011F09FA32987 /* Reachability.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		27C5C851924038BBFE179B47A8AC61E5 /* SRGTimeCheatCapturer */ = {
+		0804594AD07BB58248ED294CEC84496F /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				6BFB28615AB81A6481F2A1B463CF3889 /* Library */,
-				B734962A802E67C72925868155AF2A8B /* Pod */,
-				B70332EEC27FEED7772F467D4D39FB66 /* SRGTimeCheatCapturer */,
-				C21D1B24925738299AB1EEEC204CA489 /* Support Files */,
-			);
-			name = SRGTimeCheatCapturer;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		2F503D223BEC0BCA066E1F58FD0A0143 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5A88BDA0DEF5B538583AABE02CF08E61 /* Pods-SRGTimeCheatCapturerDemo */,
-				739A044FF763BFBC7F9B3D5E49A2BF0F /* Pods-SRGTimeCheatCapturerDemoTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E7E283C74B7E79D37D9BAAFF277942F5 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		57DA4A7A70518C0F24FB5B180AA699A2 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				00A2A70CB6AB8500885AFDAB18D35A12 /* Reachability.h */,
-				AF7587CE669F43043C23D8EA6BDEA80A /* Reachability.m */,
-				DB5E4BB54CD520D1B840991E85F44639 /* Support Files */,
-			);
-			name = Reachability;
-			path = Reachability;
-			sourceTree = "<group>";
-		};
-		5A88BDA0DEF5B538583AABE02CF08E61 /* Pods-SRGTimeCheatCapturerDemo */ = {
-			isa = PBXGroup;
-			children = (
-				5E0436EEFDFE4D48AF7E2CA64E5DB1A1 /* Pods-SRGTimeCheatCapturerDemo-acknowledgements.markdown */,
-				C2D17CCC62FA18B4EE100394AF69DC45 /* Pods-SRGTimeCheatCapturerDemo-acknowledgements.plist */,
-				69B9288F3641F40AB14D65118A64637B /* Pods-SRGTimeCheatCapturerDemo-dummy.m */,
-				0A42B01A67AC3449179DB2753CA553AC /* Pods-SRGTimeCheatCapturerDemo-frameworks.sh */,
-				1A2F81238667DAD0441D9E7F1024C0F2 /* Pods-SRGTimeCheatCapturerDemo-resources.sh */,
-				594567C302F1A88F01730F2213F2F882 /* Pods-SRGTimeCheatCapturerDemo.debug.xcconfig */,
-				7CFBD9E0443B8E70D10D66B7960DA865 /* Pods-SRGTimeCheatCapturerDemo.release.xcconfig */,
-			);
-			name = "Pods-SRGTimeCheatCapturerDemo";
-			path = "Target Support Files/Pods-SRGTimeCheatCapturerDemo";
-			sourceTree = "<group>";
-		};
-		614557D208FDD48AD3CBB6F0565C0E54 /* network-udp */ = {
-			isa = PBXGroup;
-			children = (
-				474773A3D1039D8D3DC93916E36AEFBE /* GCDAsyncUdpSocket.h */,
-				897D83E681BE52EFAB5113B054657F50 /* GCDAsyncUdpSocket.m */,
-			);
-			name = "network-udp";
-			path = "network-udp";
-			sourceTree = "<group>";
-		};
-		6BFB28615AB81A6481F2A1B463CF3889 /* Library */ = {
-			isa = PBXGroup;
-			children = (
-				AFB8E2B700C5914829F2CF3168CDFE07 /* ios-ntp-master */,
+				A4C49CE7C1E64E3D4C2155EB8A170AD7 /* ios-ntp-master */,
 			);
 			name = Library;
 			path = Library;
 			sourceTree = "<group>";
 		};
-		739A044FF763BFBC7F9B3D5E49A2BF0F /* Pods-SRGTimeCheatCapturerDemoTests */ = {
+		0C098764ACBB0B29AE5EDB980C87A709 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5C05109A1FE8BC06137566DA5FB97503 /* Pods-SRGTimeCheatCapturerDemoTests-acknowledgements.markdown */,
-				BC530763809E73A09B26AD71B3B706F9 /* Pods-SRGTimeCheatCapturerDemoTests-acknowledgements.plist */,
-				7C6F59AC5B02ADB80C2735042C0FBC7C /* Pods-SRGTimeCheatCapturerDemoTests-dummy.m */,
-				1E0B3822B8CAB305FB9091191C83F1E1 /* Pods-SRGTimeCheatCapturerDemoTests-frameworks.sh */,
-				7E52A6F358961FE1571E0F7D26425962 /* Pods-SRGTimeCheatCapturerDemoTests-resources.sh */,
-				3BDE187A736DCB9A6E34E45C0CEB6B61 /* Pods-SRGTimeCheatCapturerDemoTests.debug.xcconfig */,
-				1819E440DF31CBCFDC5CF00B8B9B20A8 /* Pods-SRGTimeCheatCapturerDemoTests.release.xcconfig */,
+				17D4F932EA829BC9B9924DA7E80AAE6E /* Pods-SRGTimeCheatCapturerDemo */,
+				AC6890B455DE0F584153B45814B307C6 /* Pods-SRGTimeCheatCapturerDemoTests */,
 			);
-			name = "Pods-SRGTimeCheatCapturerDemoTests";
-			path = "Target Support Files/Pods-SRGTimeCheatCapturerDemoTests";
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		17D4F932EA829BC9B9924DA7E80AAE6E /* Pods-SRGTimeCheatCapturerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				87D9915DFDA580FEA23EC7D4C6CB8543 /* Info.plist */,
+				12765891619778586979657AF20DA855 /* Pods-SRGTimeCheatCapturerDemo.modulemap */,
+				62AE8E7F1B3CC82F505FDF01A8FBB906 /* Pods-SRGTimeCheatCapturerDemo-acknowledgements.markdown */,
+				23C02CFFF71ECAC2E4E800AC5CBFA367 /* Pods-SRGTimeCheatCapturerDemo-acknowledgements.plist */,
+				BCA8A35595402C0CB93F1C85A009EC49 /* Pods-SRGTimeCheatCapturerDemo-dummy.m */,
+				8800ED0D52F667CC376F05C5803EA889 /* Pods-SRGTimeCheatCapturerDemo-frameworks.sh */,
+				F5F11F06AF5146B3A1AADD50D6EA9771 /* Pods-SRGTimeCheatCapturerDemo-resources.sh */,
+				497A8E2753BCBECB7E9F0706F98E9570 /* Pods-SRGTimeCheatCapturerDemo-umbrella.h */,
+				6AACB193FC42884FDB6D7684125EF64E /* Pods-SRGTimeCheatCapturerDemo.debug.xcconfig */,
+				8CC920FF5A8B28ACED4B6D42372A315D /* Pods-SRGTimeCheatCapturerDemo.release.xcconfig */,
+			);
+			name = "Pods-SRGTimeCheatCapturerDemo";
+			path = "Target Support Files/Pods-SRGTimeCheatCapturerDemo";
+			sourceTree = "<group>";
+		};
+		1C3F85FF6EBBB8F137B5DA64E08D9E1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3BAC1114905B3F01B90ADCD7093AC83 /* Info.plist */,
+				16D85C95846C16BF86A8FA63EF8AB417 /* SRGTimeCheatCapturer.modulemap */,
+				52365ED904B15B2FEEEF78ED33A0D3CD /* SRGTimeCheatCapturer.xcconfig */,
+				20358AABE828300E9F36B0FE635939D9 /* SRGTimeCheatCapturer-dummy.m */,
+				693DAC84B2A0E7A92D1550728CBFEDBF /* SRGTimeCheatCapturer-prefix.pch */,
+				9AE211942A5C8930B17B949457406158 /* SRGTimeCheatCapturer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "SRGTimeCheatCapturerDemo/Pods/Target Support Files/SRGTimeCheatCapturer";
+			sourceTree = "<group>";
+		};
+		1E14E79A1D8A34A24EF8D36A8E6FB7AB /* SRGTimeCheatCapturer */ = {
+			isa = PBXGroup;
+			children = (
+				03A1150299FC0DFC8ADD8C8E0EDF9603 /* SRGTimeCheatCapturer.h */,
+				C31987704E0364C49B6218C8E4486D6C /* SRGTimeCheatCapturer.m */,
+			);
+			name = SRGTimeCheatCapturer;
+			path = SRGTimeCheatCapturer;
+			sourceTree = "<group>";
+		};
+		2D9B239B8FD80EC3EC9715599C2F4B50 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				07E7E4D5C54BC540C06CC171C2B9DD0D /* LICENSE */,
+				785CE5B7A9ED3FE0BE6031C39E1AED7B /* README.md */,
+				36D76688AB1109E92227EA6D2525DF28 /* SRGTimeCheatCapturer.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3B067359A185C9FFBB10624DFC6C8817 /* SRGTimeCheatCapturer */ = {
+			isa = PBXGroup;
+			children = (
+				0804594AD07BB58248ED294CEC84496F /* Library */,
+				2D9B239B8FD80EC3EC9715599C2F4B50 /* Pod */,
+				1E14E79A1D8A34A24EF8D36A8E6FB7AB /* SRGTimeCheatCapturer */,
+				1C3F85FF6EBBB8F137B5DA64E08D9E1E /* Support Files */,
+			);
+			name = SRGTimeCheatCapturer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		694952F075DBEFB23E993F3478313095 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				7A936234CB17B250090CB411E06DF362 /* Reachability.h */,
+				D34F4CDC64DC5D3F5FC1CD5E4F71579B /* Reachability.m */,
+				E5BB5E9CE06300C8B15FED643A8C522B /* Support Files */,
+			);
+			name = Reachability;
+			path = Reachability;
 			sourceTree = "<group>";
 		};
 		777E9B823EA0F41D34E920C1C38C32FB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				27C5C851924038BBFE179B47A8AC61E5 /* SRGTimeCheatCapturer */,
+				3B067359A185C9FFBB10624DFC6C8817 /* SRGTimeCheatCapturer */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -247,103 +270,112 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				777E9B823EA0F41D34E920C1C38C32FB /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				E11672FA369F8978780CD4B9AAA8C034 /* Frameworks */,
 				D02F67554E14C3100F274620CC9E3885 /* Pods */,
-				802C280F3289CE9D9A703DFBA6F5D5F3 /* Products */,
-				2F503D223BEC0BCA066E1F58FD0A0143 /* Targets Support Files */,
+				9BD30445AED0E56A489C1457EB2431FF /* Products */,
+				0C098764ACBB0B29AE5EDB980C87A709 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		802C280F3289CE9D9A703DFBA6F5D5F3 /* Products */ = {
+		93190B05222143B90A3904E6C9DF29FA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				65D45D25D2F354E4839BE8E0652A8BA8 /* libPods-SRGTimeCheatCapturerDemo.a */,
-				A691BAB494054BBD890834EDF6D257FC /* libPods-SRGTimeCheatCapturerDemoTests.a */,
-				30C923BF7285F61FC1683FFD16241982 /* libReachability.a */,
-				7D9622F9C4AC8F2BB820BA419B0F4FCA /* libSRGTimeCheatCapturer.a */,
+				67BDCA8222186AAE6772023FF85CD770 /* Foundation.framework */,
+				8AA04E63878EDA4387CC9AC461314528 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9BD30445AED0E56A489C1457EB2431FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7B288240635EAB98E72F9425A40702D /* Pods_SRGTimeCheatCapturerDemo.framework */,
+				9AB933D295E175A3690CA0F30D3DE9A9 /* Pods_SRGTimeCheatCapturerDemoTests.framework */,
+				FB63F9E947BA512E69EF8DA4B2664AC6 /* Reachability.framework */,
+				D863DA8FB3E48B0B3B7715099577A8E6 /* SRGTimeCheatCapturer.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AFB8E2B700C5914829F2CF3168CDFE07 /* ios-ntp-master */ = {
+		9F196E002B9F9F14BE0BA9183C92D841 /* network-udp */ = {
 			isa = PBXGroup;
 			children = (
-				FDB9FFCCE6D16E8E81857E6B36D9D832 /* ios-ntp-lib */,
-				614557D208FDD48AD3CBB6F0565C0E54 /* network-udp */,
+				4CD1E6B8D93318A5AD2A156C401D40AE /* GCDAsyncUdpSocket.h */,
+				14D230D7FE8E07F670E7F3A6995C1B34 /* GCDAsyncUdpSocket.m */,
+			);
+			name = "network-udp";
+			path = "network-udp";
+			sourceTree = "<group>";
+		};
+		A4C49CE7C1E64E3D4C2155EB8A170AD7 /* ios-ntp-master */ = {
+			isa = PBXGroup;
+			children = (
+				F90BBE47882053FD42957418EF8575B2 /* ios-ntp-lib */,
+				9F196E002B9F9F14BE0BA9183C92D841 /* network-udp */,
 			);
 			name = "ios-ntp-master";
 			path = "ios-ntp-master";
 			sourceTree = "<group>";
 		};
-		B70332EEC27FEED7772F467D4D39FB66 /* SRGTimeCheatCapturer */ = {
+		AC6890B455DE0F584153B45814B307C6 /* Pods-SRGTimeCheatCapturerDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				867C786324D1B8BABCDA19265B59664C /* SRGTimeCheatCapturer.h */,
-				22D8A62B01DE84C2BBD8D17F2AAFD279 /* SRGTimeCheatCapturer.m */,
+				45CA6389887A081DA0AFA2E19EF06A05 /* Info.plist */,
+				5E43F68C0A16B484829F2E1CA30FE9E7 /* Pods-SRGTimeCheatCapturerDemoTests.modulemap */,
+				4776789F9F777FC5239B8731B047779A /* Pods-SRGTimeCheatCapturerDemoTests-acknowledgements.markdown */,
+				D0D92F8B5597E061A62F2377960F4710 /* Pods-SRGTimeCheatCapturerDemoTests-acknowledgements.plist */,
+				C0E5D3A797FA595FC160BEFFAE7D30D6 /* Pods-SRGTimeCheatCapturerDemoTests-dummy.m */,
+				15957A6BDDCB93ADF7E4305F838A85B0 /* Pods-SRGTimeCheatCapturerDemoTests-frameworks.sh */,
+				51522405EBCEA58D1D9085D3361F956F /* Pods-SRGTimeCheatCapturerDemoTests-resources.sh */,
+				769236F7903430DFB84314D10200E9D0 /* Pods-SRGTimeCheatCapturerDemoTests-umbrella.h */,
+				4E56E4FECBF22671DE3A389D3A93ED67 /* Pods-SRGTimeCheatCapturerDemoTests.debug.xcconfig */,
+				9FBE4AC45E6220586C0B94C44E0B22DA /* Pods-SRGTimeCheatCapturerDemoTests.release.xcconfig */,
 			);
-			name = SRGTimeCheatCapturer;
-			path = SRGTimeCheatCapturer;
-			sourceTree = "<group>";
-		};
-		B734962A802E67C72925868155AF2A8B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4980E5ED19D0D32D218D0DF336C02034 /* LICENSE */,
-				50B22C6FCDABD74C7731D816056B557F /* README.md */,
-				AC68EF328EC1FBAD41D9F4FD781DBAE8 /* SRGTimeCheatCapturer.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		C21D1B24925738299AB1EEEC204CA489 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				61A3ECCC1C8E826BFDF04882AD011CEF /* SRGTimeCheatCapturer.xcconfig */,
-				78D690EB8F783AA16D605EE04A856FBF /* SRGTimeCheatCapturer-dummy.m */,
-				0283C2DCFD537BE0C447383A6BFBFFA1 /* SRGTimeCheatCapturer-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "SRGTimeCheatCapturerDemo/Pods/Target Support Files/SRGTimeCheatCapturer";
+			name = "Pods-SRGTimeCheatCapturerDemoTests";
+			path = "Target Support Files/Pods-SRGTimeCheatCapturerDemoTests";
 			sourceTree = "<group>";
 		};
 		D02F67554E14C3100F274620CC9E3885 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				57DA4A7A70518C0F24FB5B180AA699A2 /* Reachability */,
+				694952F075DBEFB23E993F3478313095 /* Reachability */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		DB5E4BB54CD520D1B840991E85F44639 /* Support Files */ = {
+		E11672FA369F8978780CD4B9AAA8C034 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				09E80A36C6CD46B7F3D7F5A056B41016 /* Reachability.xcconfig */,
-				1EC9156B5D7AD191B1D50947D7C4A9C5 /* Reachability-dummy.m */,
-				F173ABEF1F58F3FEC9F57DA9B0C7796B /* Reachability-prefix.pch */,
+				64A37CCE8B305B51BF5D9D5BBAE395A2 /* Reachability.framework */,
+				93190B05222143B90A3904E6C9DF29FA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5BB5E9CE06300C8B15FED643A8C522B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F32EFE21CEC8D24E442E2673B77D3F9 /* Info.plist */,
+				9E52A59DF14AED4BD8B3A53E140A0C1B /* Reachability.modulemap */,
+				38251FACF473A6D64697BDCE731692CA /* Reachability.xcconfig */,
+				FE610CD6E225270CA6F4F40187EDC900 /* Reachability-dummy.m */,
+				CF3782575BDC1B18A901C9D8361DEE49 /* Reachability-prefix.pch */,
+				6985CF3C69F0CBED68BE2E955A31F555 /* Reachability-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Reachability";
 			sourceTree = "<group>";
 		};
-		E7E283C74B7E79D37D9BAAFF277942F5 /* iOS */ = {
+		F90BBE47882053FD42957418EF8575B2 /* ios-ntp-lib */ = {
 			isa = PBXGroup;
 			children = (
-				97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */,
-				F2AF9EC704AAD470CAC8FE0D05A5430B /* SystemConfiguration.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		FDB9FFCCE6D16E8E81857E6B36D9D832 /* ios-ntp-lib */ = {
-			isa = PBXGroup;
-			children = (
-				F2C8B09AD077D25C193B94BE57F674D8 /* ios-ntp.h */,
-				8CC6A1ECD7464647042B8479EE8B65D6 /* NetAssociation.h */,
-				F25D262850BEB0649D6476DA12C90BE4 /* NetAssociation.m */,
-				02971FFD707FBB8FFC9D099344D170DB /* NetworkClock.h */,
-				91BC3E2FCF072163BF7EC8930FE31E1A /* NetworkClock.m */,
-				68ECB8654DE01C4FEAA693FFE376127F /* NSDate+NetworkClock.h */,
-				E3A170542974A83B4BCDB0453FA8FF5D /* NSDate+NetworkClock.m */,
+				01166513C9520E19EC365B7D46B8ED69 /* ios-ntp.h */,
+				1EFE8793FD2683574C9850308EA7545C /* NetAssociation.h */,
+				A139C6D6D0AB93BC5D5AD42FB7B93D47 /* NetAssociation.m */,
+				73D678056488541D45AFA45D3C560167 /* NetworkClock.h */,
+				336FB5A6BCC7732CD7B0C2BB189E777E /* NetworkClock.m */,
+				C19BBE0383CDFAE07A8D6D6F3E41B606 /* NSDate+NetworkClock.h */,
+				2D590DD1E4C10FFD5928DC26AAFDED60 /* NSDate+NetworkClock.m */,
 			);
 			name = "ios-ntp-lib";
 			path = "ios-ntp-lib";
@@ -352,90 +384,55 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		BE5DA320D2109615E28C013CA5C531B4 /* Headers */ = {
+		2F7D9A9947071298E971A5F3564A2AB0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62C085C4C8D5A606AC4CC8F1AC4241D6 /* Reachability.h in Headers */,
+				E3D34FF6F80BC5062DAF188B491E3725 /* GCDAsyncUdpSocket.h in Headers */,
+				FEC4995D2D5D399B3663F790860ED514 /* ios-ntp.h in Headers */,
+				1FF726AFA98A8772C57F3748BF12F40C /* NetAssociation.h in Headers */,
+				D0B6A35B3C523035BD0040340C20649B /* NetworkClock.h in Headers */,
+				F66A1EBDD8D0914A788303AD2E32E739 /* NSDate+NetworkClock.h in Headers */,
+				D5A439C6D9B9E69E28453FC18749C952 /* SRGTimeCheatCapturer-umbrella.h in Headers */,
+				AC56A04F73EA40E4E41BF555184EC9EF /* SRGTimeCheatCapturer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6073915EF06C4877561D70F2F6835FF /* Headers */ = {
+		3382894E31630B5F285F5891ED40BEF1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2D0B1493F472C473FB12A73BC13C2B1 /* GCDAsyncUdpSocket.h in Headers */,
-				52CCADA5BFDFDF9396C789458566FA25 /* ios-ntp.h in Headers */,
-				20719D4201D9BC4DEEFE18E5DF3024BA /* NetAssociation.h in Headers */,
-				7C24505A448AAC879F4A07019D623428 /* NetworkClock.h in Headers */,
-				20FC6E37105427CC392F00ACE55BAA1A /* NSDate+NetworkClock.h in Headers */,
-				06C3C0189D69892D60DD0170820DA7C9 /* SRGTimeCheatCapturer.h in Headers */,
+				D6C44AE529FC81295326A70FFE29416F /* Pods-SRGTimeCheatCapturerDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4E47B81707A06C53583696E1C8B844 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4DEBB5C2C6014DABCFCEF45B47D469 /* Reachability-umbrella.h in Headers */,
+				4C76D5C3B7A40AA193F77418D6FE6689 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEA532C06EA357B377EA18D371FCB60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE07829F9377F2BF3D6879656189B97 /* Pods-SRGTimeCheatCapturerDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		13CC783C95E8B75BF6D30FF6C1B2F727 /* Pods-SRGTimeCheatCapturerDemoTests */ = {
+		16CDAC77089CFA64C77D88C73949F636 /* Reachability */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0AFB5012D4E2BB4BD3A2B9859296FB0 /* Build configuration list for PBXNativeTarget "Pods-SRGTimeCheatCapturerDemoTests" */;
+			buildConfigurationList = D3958BA50A77B0A744ADA3E0CEC1787C /* Build configuration list for PBXNativeTarget "Reachability" */;
 			buildPhases = (
-				310EEE8D7B769F818402998B9F228A35 /* Sources */,
-				D4576866FD3238CAD006EA939C25F7B8 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				29A1065708FF20D642C7001B0249A3A4 /* PBXTargetDependency */,
-			);
-			name = "Pods-SRGTimeCheatCapturerDemoTests";
-			productName = "Pods-SRGTimeCheatCapturerDemoTests";
-			productReference = A691BAB494054BBD890834EDF6D257FC /* libPods-SRGTimeCheatCapturerDemoTests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		75F6C9D5EEDE9C725A41292DBF556BA0 /* Pods-SRGTimeCheatCapturerDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1D3A0EBB43097A29FE946DE4C4190A7B /* Build configuration list for PBXNativeTarget "Pods-SRGTimeCheatCapturerDemo" */;
-			buildPhases = (
-				81BF1F87CA3C89DF79DD163F6E4F5C79 /* Sources */,
-				C8A449321EBF240C9D49EAB0BDB511E9 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				58704066D477552A95DE1D0B60F1E848 /* PBXTargetDependency */,
-				C03A9B07999681C76CA9E0056396B55B /* PBXTargetDependency */,
-			);
-			name = "Pods-SRGTimeCheatCapturerDemo";
-			productName = "Pods-SRGTimeCheatCapturerDemo";
-			productReference = 65D45D25D2F354E4839BE8E0652A8BA8 /* libPods-SRGTimeCheatCapturerDemo.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		B99B7AE38041A6BC0DAB7E08417F1774 /* SRGTimeCheatCapturer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4E90B950642D64F9A075D1F2545AAA78 /* Build configuration list for PBXNativeTarget "SRGTimeCheatCapturer" */;
-			buildPhases = (
-				269D21C7F653F20D3B37B10E974E8820 /* Sources */,
-				AC4B23ED6B1D60A7AD70581200E39A38 /* Frameworks */,
-				D6073915EF06C4877561D70F2F6835FF /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E877B8E72CFA205323BC71E3C1C9D117 /* PBXTargetDependency */,
-			);
-			name = SRGTimeCheatCapturer;
-			productName = SRGTimeCheatCapturer;
-			productReference = 7D9622F9C4AC8F2BB820BA419B0F4FCA /* libSRGTimeCheatCapturer.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		EDC36975B32B0B4AACB2889B7AA13CD8 /* Reachability */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B1454C74BDC45B2024BB08ABFC639C3A /* Build configuration list for PBXNativeTarget "Reachability" */;
-			buildPhases = (
-				BE7706908A0A72C5D7EFB45A7A3DCB6F /* Sources */,
-				7EDEC42B8A3FB925AA0C84C02FCEBFA7 /* Frameworks */,
-				BE5DA320D2109615E28C013CA5C531B4 /* Headers */,
+				9A024E657B02EA6D5E92B567706830C5 /* Sources */,
+				BC56E3ECC54803C684C28C758875C8B7 /* Frameworks */,
+				BF4E47B81707A06C53583696E1C8B844 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -443,8 +440,63 @@
 			);
 			name = Reachability;
 			productName = Reachability;
-			productReference = 30C923BF7285F61FC1683FFD16241982 /* libReachability.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = FB63F9E947BA512E69EF8DA4B2664AC6 /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		938722CCA20C88979150E44A76D8A4A6 /* SRGTimeCheatCapturer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C3803427FC7DA8BAE6EF98CCB0A7CA /* Build configuration list for PBXNativeTarget "SRGTimeCheatCapturer" */;
+			buildPhases = (
+				74E79C671B737C6E8A83671D567C66AB /* Sources */,
+				F38C3B0966EE441A5982EE8510A695EC /* Frameworks */,
+				2F7D9A9947071298E971A5F3564A2AB0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74755177E1C624043B8B60DF765CB92E /* PBXTargetDependency */,
+			);
+			name = SRGTimeCheatCapturer;
+			productName = SRGTimeCheatCapturer;
+			productReference = D863DA8FB3E48B0B3B7715099577A8E6 /* SRGTimeCheatCapturer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E08943D8DCDC53C972160285B01E014F /* Pods-SRGTimeCheatCapturerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 968A4BA99D4B4B458FE64C22E37F6D0E /* Build configuration list for PBXNativeTarget "Pods-SRGTimeCheatCapturerDemo" */;
+			buildPhases = (
+				B8EB411030BF959DD28B84A66482BC1F /* Sources */,
+				9CD427257C6B15256AC379938A795DB8 /* Frameworks */,
+				FAEA532C06EA357B377EA18D371FCB60 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF6F8F3A28457DA718910862E0B63C1 /* PBXTargetDependency */,
+				DFCF74D4FC39CC29D27B71CD5B5DE28E /* PBXTargetDependency */,
+			);
+			name = "Pods-SRGTimeCheatCapturerDemo";
+			productName = "Pods-SRGTimeCheatCapturerDemo";
+			productReference = A7B288240635EAB98E72F9425A40702D /* Pods_SRGTimeCheatCapturerDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9BE976A75DF1AC1C90DFD9BC987048E /* Pods-SRGTimeCheatCapturerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F671EB0C28A52C1E118A88BD715236 /* Build configuration list for PBXNativeTarget "Pods-SRGTimeCheatCapturerDemoTests" */;
+			buildPhases = (
+				6F32EB1569202E8D6142F8A2A0F3D531 /* Sources */,
+				C8209E1F601138CC2B83E2D66BB9DD6E /* Frameworks */,
+				3382894E31630B5F285F5891ED40BEF1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86A1F8405EA965A52BFA6C2FF2432350 /* PBXTargetDependency */,
+			);
+			name = "Pods-SRGTimeCheatCapturerDemoTests";
+			productName = "Pods-SRGTimeCheatCapturerDemoTests";
+			productReference = 9AB933D295E175A3690CA0F30D3DE9A9 /* Pods_SRGTimeCheatCapturerDemoTests.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -463,283 +515,88 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 802C280F3289CE9D9A703DFBA6F5D5F3 /* Products */;
+			productRefGroup = 9BD30445AED0E56A489C1457EB2431FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				75F6C9D5EEDE9C725A41292DBF556BA0 /* Pods-SRGTimeCheatCapturerDemo */,
-				13CC783C95E8B75BF6D30FF6C1B2F727 /* Pods-SRGTimeCheatCapturerDemoTests */,
-				EDC36975B32B0B4AACB2889B7AA13CD8 /* Reachability */,
-				B99B7AE38041A6BC0DAB7E08417F1774 /* SRGTimeCheatCapturer */,
+				E08943D8DCDC53C972160285B01E014F /* Pods-SRGTimeCheatCapturerDemo */,
+				E9BE976A75DF1AC1C90DFD9BC987048E /* Pods-SRGTimeCheatCapturerDemoTests */,
+				16CDAC77089CFA64C77D88C73949F636 /* Reachability */,
+				938722CCA20C88979150E44A76D8A4A6 /* SRGTimeCheatCapturer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		269D21C7F653F20D3B37B10E974E8820 /* Sources */ = {
+		6F32EB1569202E8D6142F8A2A0F3D531 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				694390E39EF92D305724095A46C991E3 /* GCDAsyncUdpSocket.m in Sources */,
-				A282AEC07E3058FB7529942ACC9E94D7 /* NetAssociation.m in Sources */,
-				8C920E192DD41DB172464161F7B560E8 /* NetworkClock.m in Sources */,
-				8F20971CBB2E92B212772A2942C4B50A /* NSDate+NetworkClock.m in Sources */,
-				75A3F3D72B0ADA39C3155BFB0280EA94 /* SRGTimeCheatCapturer-dummy.m in Sources */,
-				A73496DD0730470A70DA43952E57E987 /* SRGTimeCheatCapturer.m in Sources */,
+				604536663C7A17025B558459FEC16B6A /* Pods-SRGTimeCheatCapturerDemoTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		310EEE8D7B769F818402998B9F228A35 /* Sources */ = {
+		74E79C671B737C6E8A83671D567C66AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E635DF4E33571FFEC1F3F2F6A6A08433 /* Pods-SRGTimeCheatCapturerDemoTests-dummy.m in Sources */,
+				F0D013F81E46DD3899143FDE65B68628 /* GCDAsyncUdpSocket.m in Sources */,
+				B173860400350A0A98CDB83CE6F19479 /* NetAssociation.m in Sources */,
+				D90579BAA3B2AAB6FE8ADFCFB8DBD9A8 /* NetworkClock.m in Sources */,
+				8125B3CB5E57AE320813AD511755E10F /* NSDate+NetworkClock.m in Sources */,
+				010D01AB71DEE4C30CFE72E9EF2940C0 /* SRGTimeCheatCapturer-dummy.m in Sources */,
+				1E08C7C32B096BB40AD3DBADBEBB10C0 /* SRGTimeCheatCapturer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81BF1F87CA3C89DF79DD163F6E4F5C79 /* Sources */ = {
+		9A024E657B02EA6D5E92B567706830C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED9FAEDD80DF69A8A1376A259CA7E0E0 /* Pods-SRGTimeCheatCapturerDemo-dummy.m in Sources */,
+				0D5B4AD06CB01DCD857967EF50B4B342 /* Reachability-dummy.m in Sources */,
+				3BD8D8F53E7A17B31585DE7C83391681 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE7706908A0A72C5D7EFB45A7A3DCB6F /* Sources */ = {
+		B8EB411030BF959DD28B84A66482BC1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB2E628FA35FDB78434ABEB2DDE506B4 /* Reachability-dummy.m in Sources */,
-				B1303F45AB521D89A4EA1238C976EB9F /* Reachability.m in Sources */,
+				79CD81D92203BC09A9AC902EDEA73F81 /* Pods-SRGTimeCheatCapturerDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		29A1065708FF20D642C7001B0249A3A4 /* PBXTargetDependency */ = {
+		74755177E1C624043B8B60DF765CB92E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = 16CDAC77089CFA64C77D88C73949F636 /* Reachability */;
+			targetProxy = 8AADF096C0D3E32A949A03DBF466189D /* PBXContainerItemProxy */;
+		};
+		86A1F8405EA965A52BFA6C2FF2432350 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SRGTimeCheatCapturerDemo";
-			target = 75F6C9D5EEDE9C725A41292DBF556BA0 /* Pods-SRGTimeCheatCapturerDemo */;
-			targetProxy = D74C68F53CFCC8CB2F90915AB004DD73 /* PBXContainerItemProxy */;
+			target = E08943D8DCDC53C972160285B01E014F /* Pods-SRGTimeCheatCapturerDemo */;
+			targetProxy = DD2B07821DF2F72463C2EF6B5C7D3273 /* PBXContainerItemProxy */;
 		};
-		58704066D477552A95DE1D0B60F1E848 /* PBXTargetDependency */ = {
+		BCF6F8F3A28457DA718910862E0B63C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Reachability;
-			target = EDC36975B32B0B4AACB2889B7AA13CD8 /* Reachability */;
-			targetProxy = 67DFFD01A3B9CC05EA3597BF91016B5F /* PBXContainerItemProxy */;
+			target = 16CDAC77089CFA64C77D88C73949F636 /* Reachability */;
+			targetProxy = 1ABFBA218202FCA15441169E97357880 /* PBXContainerItemProxy */;
 		};
-		C03A9B07999681C76CA9E0056396B55B /* PBXTargetDependency */ = {
+		DFCF74D4FC39CC29D27B71CD5B5DE28E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SRGTimeCheatCapturer;
-			target = B99B7AE38041A6BC0DAB7E08417F1774 /* SRGTimeCheatCapturer */;
-			targetProxy = 04CCCAD93249FA0500A8D2E4D78BB972 /* PBXContainerItemProxy */;
-		};
-		E877B8E72CFA205323BC71E3C1C9D117 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Reachability;
-			target = EDC36975B32B0B4AACB2889B7AA13CD8 /* Reachability */;
-			targetProxy = 92F6CA9897757718769F23D9A4272212 /* PBXContainerItemProxy */;
+			target = 938722CCA20C88979150E44A76D8A4A6 /* SRGTimeCheatCapturer */;
+			targetProxy = 4FC0545F7C91BD975771413DD742DD76 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02507E7B4ABFDD0E51C48B69477CD170 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CFBD9E0443B8E70D10D66B7960DA865 /* Pods-SRGTimeCheatCapturerDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		0C9677199C09501043FE5ED2D8DA6FF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 594567C302F1A88F01730F2213F2F882 /* Pods-SRGTimeCheatCapturerDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		31F9B820119E95A9142F886993C08BF9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61A3ECCC1C8E826BFDF04882AD011CEF /* SRGTimeCheatCapturer.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SRGTimeCheatCapturer/SRGTimeCheatCapturer-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SRGTimeCheatCapturer;
-				PRODUCT_NAME = SRGTimeCheatCapturer;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		7B3EC4D13537ADA51123F68812885EFB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61A3ECCC1C8E826BFDF04882AD011CEF /* SRGTimeCheatCapturer.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SRGTimeCheatCapturer/SRGTimeCheatCapturer-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SRGTimeCheatCapturer;
-				PRODUCT_NAME = SRGTimeCheatCapturer;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		85CB0722012504192AEDFF2AC824F695 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		873149E2AA765D7762D6F2C20C4AF2A5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09E80A36C6CD46B7F3D7F5A056B41016 /* Reachability.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = Reachability;
-				PRODUCT_NAME = Reachability;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A60EC2F6423A69CF2C3C013FCFCA1BDE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09E80A36C6CD46B7F3D7F5A056B41016 /* Reachability.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = Reachability;
-				PRODUCT_NAME = Reachability;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B7E209B13D30439ACA24E5A807A68220 /* Debug */ = {
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -792,7 +649,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -802,93 +659,372 @@
 			};
 			name = Debug;
 		};
-		D9121F724E31696BE80E44BE8A504D7F /* Release */ = {
+		22E2A9D50A8C6F4A89B159E4938461B1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1819E440DF31CBCFDC5CF00B8B9B20A8 /* Pods-SRGTimeCheatCapturerDemoTests.release.xcconfig */;
+			baseConfigurationReference = 8CC920FF5A8B28ACED4B6D42372A315D /* Pods-SRGTimeCheatCapturerDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SRGTimeCheatCapturerDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SRGTimeCheatCapturerDemo/Pods-SRGTimeCheatCapturerDemo.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		DC9617216FD6041067FE8A69F3C3CBF9 /* Debug */ = {
+		3DBA64B8F352EF076DF611A9AF643953 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BDE187A736DCB9A6E34E45C0CEB6B61 /* Pods-SRGTimeCheatCapturerDemoTests.debug.xcconfig */;
+			baseConfigurationReference = 4E56E4FECBF22671DE3A389D3A93ED67 /* Pods-SRGTimeCheatCapturerDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SRGTimeCheatCapturerDemoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SRGTimeCheatCapturerDemoTests/Pods-SRGTimeCheatCapturerDemoTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		47918956FE0E7DCF376E8CA4B4AD24A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38251FACF473A6D64697BDCE731692CA /* Reachability.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reachability/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4CD25F7AF687A6A26D396EC78A34022A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AACB193FC42884FDB6D7684125EF64E /* Pods-SRGTimeCheatCapturerDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SRGTimeCheatCapturerDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SRGTimeCheatCapturerDemo/Pods-SRGTimeCheatCapturerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73F0142498DEF04DF2FA6E006962EE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FBE4AC45E6220586C0B94C44E0B22DA /* Pods-SRGTimeCheatCapturerDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SRGTimeCheatCapturerDemoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SRGTimeCheatCapturerDemoTests/Pods-SRGTimeCheatCapturerDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AFE4C6A00E25C47474FBB63BD6C11694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52365ED904B15B2FEEEF78ED33A0D3CD /* SRGTimeCheatCapturer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SRGTimeCheatCapturer/SRGTimeCheatCapturer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRGTimeCheatCapturer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SRGTimeCheatCapturer/SRGTimeCheatCapturer.modulemap";
+				PRODUCT_MODULE_NAME = SRGTimeCheatCapturer;
+				PRODUCT_NAME = SRGTimeCheatCapturer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8A13CBA71E5319569891C898C346C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52365ED904B15B2FEEEF78ED33A0D3CD /* SRGTimeCheatCapturer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SRGTimeCheatCapturer/SRGTimeCheatCapturer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRGTimeCheatCapturer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SRGTimeCheatCapturer/SRGTimeCheatCapturer.modulemap";
+				PRODUCT_MODULE_NAME = SRGTimeCheatCapturer;
+				PRODUCT_NAME = SRGTimeCheatCapturer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA629B773F41D1C803413070FD6B8798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38251FACF473A6D64697BDCE731692CA /* Reachability.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reachability/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D3A0EBB43097A29FE946DE4C4190A7B /* Build configuration list for PBXNativeTarget "Pods-SRGTimeCheatCapturerDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C9677199C09501043FE5ED2D8DA6FF0 /* Debug */,
-				02507E7B4ABFDD0E51C48B69477CD170 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B7E209B13D30439ACA24E5A807A68220 /* Debug */,
-				85CB0722012504192AEDFF2AC824F695 /* Release */,
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E90B950642D64F9A075D1F2545AAA78 /* Build configuration list for PBXNativeTarget "SRGTimeCheatCapturer" */ = {
+		968A4BA99D4B4B458FE64C22E37F6D0E /* Build configuration list for PBXNativeTarget "Pods-SRGTimeCheatCapturerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31F9B820119E95A9142F886993C08BF9 /* Debug */,
-				7B3EC4D13537ADA51123F68812885EFB /* Release */,
+				4CD25F7AF687A6A26D396EC78A34022A /* Debug */,
+				22E2A9D50A8C6F4A89B159E4938461B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1454C74BDC45B2024BB08ABFC639C3A /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+		B2C3803427FC7DA8BAE6EF98CCB0A7CA /* Build configuration list for PBXNativeTarget "SRGTimeCheatCapturer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A60EC2F6423A69CF2C3C013FCFCA1BDE /* Debug */,
-				873149E2AA765D7762D6F2C20C4AF2A5 /* Release */,
+				AFE4C6A00E25C47474FBB63BD6C11694 /* Debug */,
+				C8A13CBA71E5319569891C898C346C88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0AFB5012D4E2BB4BD3A2B9859296FB0 /* Build configuration list for PBXNativeTarget "Pods-SRGTimeCheatCapturerDemoTests" */ = {
+		D3958BA50A77B0A744ADA3E0CEC1787C /* Build configuration list for PBXNativeTarget "Reachability" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC9617216FD6041067FE8A69F3C3CBF9 /* Debug */,
-				D9121F724E31696BE80E44BE8A504D7F /* Release */,
+				DA629B773F41D1C803413070FD6B8798 /* Debug */,
+				47918956FE0E7DCF376E8CA4B4AD24A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F671EB0C28A52C1E118A88BD715236 /* Build configuration list for PBXNativeTarget "Pods-SRGTimeCheatCapturerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DBA64B8F352EF076DF611A9AF643953 /* Debug */,
+				73F0142498DEF04DF2FA6E006962EE1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

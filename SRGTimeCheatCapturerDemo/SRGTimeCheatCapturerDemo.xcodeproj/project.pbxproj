@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		245CD6EA46808E02F527D105 /* libPods-SRGTimeCheatCapturerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8867CE326F4339CAEA055A /* libPods-SRGTimeCheatCapturerDemo.a */; };
 		24E3B9C01A750F6400DD7749 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E3B9BF1A750F6400DD7749 /* main.m */; };
 		24E3B9C31A750F6400DD7749 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E3B9C21A750F6400DD7749 /* AppDelegate.m */; };
 		24E3B9C61A750F6400DD7749 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E3B9C51A750F6400DD7749 /* ViewController.m */; };
@@ -31,8 +30,8 @@
 		24E3BA191A750FCD00DD7749 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 24E3BA081A750FCD00DD7749 /* .gitignore */; };
 		24E3BA1A1A750FCD00DD7749 /* rfc5905.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 24E3BA091A750FCD00DD7749 /* rfc5905.pdf */; };
 		24E3BA291A75131200DD7749 /* SRGTimeCheatCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E3BA281A75131200DD7749 /* SRGTimeCheatCapturer.m */; };
-		4E199B54E70B1DE8B6101C18 /* libPods-SRGTimeCheatCapturerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB05D65680EEBA89F0C63E7 /* libPods-SRGTimeCheatCapturerDemoTests.a */; };
-		E480792C2D5E8B33258AFABC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9CA44C604AA80371A9C01F /* libPods.a */; };
+		921576F23F130E45B36C993E /* Pods_SRGTimeCheatCapturerDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523AE910AF4F040552360D0F /* Pods_SRGTimeCheatCapturerDemoTests.framework */; };
+		E8278FBD50E0A400EF00BB6B /* Pods_SRGTimeCheatCapturerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053B7669FD14EDFDBD9FBB26 /* Pods_SRGTimeCheatCapturerDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CB05D65680EEBA89F0C63E7 /* libPods-SRGTimeCheatCapturerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SRGTimeCheatCapturerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		053B7669FD14EDFDBD9FBB26 /* Pods_SRGTimeCheatCapturerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SRGTimeCheatCapturerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21CDAD055DB2392E11530021 /* Pods-SRGTimeCheatCapturerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRGTimeCheatCapturerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SRGTimeCheatCapturerDemo/Pods-SRGTimeCheatCapturerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		24E3B9BA1A750F6400DD7749 /* SRGTimeCheatCapturerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRGTimeCheatCapturerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E3B9BE1A750F6400DD7749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,10 +86,10 @@
 		29D8A438D85C568375ABE139 /* Pods-SRGTimeCheatCapturerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRGTimeCheatCapturerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SRGTimeCheatCapturerDemoTests/Pods-SRGTimeCheatCapturerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3847E404BCCB47630A47F5FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		4303AB4069CCB1B580230F1D /* Pods-SRGTimeCheatCapturerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRGTimeCheatCapturerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SRGTimeCheatCapturerDemo/Pods-SRGTimeCheatCapturerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		523AE910AF4F040552360D0F /* Pods_SRGTimeCheatCapturerDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SRGTimeCheatCapturerDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9CA44C604AA80371A9C01F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD75D456E5BDFDC0578B0CD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CF07C7F84276646278A5DB6A /* Pods-SRGTimeCheatCapturerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRGTimeCheatCapturerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SRGTimeCheatCapturerDemoTests/Pods-SRGTimeCheatCapturerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		DE8867CE326F4339CAEA055A /* libPods-SRGTimeCheatCapturerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SRGTimeCheatCapturerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E480792C2D5E8B33258AFABC /* libPods.a in Frameworks */,
-				245CD6EA46808E02F527D105 /* libPods-SRGTimeCheatCapturerDemo.a in Frameworks */,
+				E8278FBD50E0A400EF00BB6B /* Pods_SRGTimeCheatCapturerDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,7 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E199B54E70B1DE8B6101C18 /* libPods-SRGTimeCheatCapturerDemoTests.a in Frameworks */,
+				921576F23F130E45B36C993E /* Pods_SRGTimeCheatCapturerDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +272,8 @@
 			isa = PBXGroup;
 			children = (
 				5A9CA44C604AA80371A9C01F /* libPods.a */,
-				DE8867CE326F4339CAEA055A /* libPods-SRGTimeCheatCapturerDemo.a */,
-				0CB05D65680EEBA89F0C63E7 /* libPods-SRGTimeCheatCapturerDemoTests.a */,
+				053B7669FD14EDFDBD9FBB26 /* Pods_SRGTimeCheatCapturerDemo.framework */,
+				523AE910AF4F040552360D0F /* Pods_SRGTimeCheatCapturerDemoTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -292,6 +290,7 @@
 				24E3B9B61A750F6400DD7749 /* Sources */,
 				24E3B9B71A750F6400DD7749 /* Frameworks */,
 				24E3B9B81A750F6400DD7749 /* Resources */,
+				E1D89FB39FA860E1AF1B46AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -332,6 +331,8 @@
 				TargetAttributes = {
 					24E3B9B91A750F6400DD7749 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = QQ7DK47Y9S;
+						ProvisioningStyle = Automatic;
 					};
 					24E3B9D21A750F6400DD7749 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -438,6 +439,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1D89FB39FA860E1AF1B46AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SRGTimeCheatCapturerDemo/Pods-SRGTimeCheatCapturerDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SRGTimeCheatCapturer/SRGTimeCheatCapturer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SRGTimeCheatCapturer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SRGTimeCheatCapturerDemo/Pods-SRGTimeCheatCapturerDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -555,7 +576,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -590,7 +611,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -602,11 +623,15 @@
 			baseConfigurationReference = 4303AB4069CCB1B580230F1D /* Pods-SRGTimeCheatCapturerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQ7DK47Y9S;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/../Library/ios-ntp-master/ios-ntp-lib/ios-ntp.pch";
 				INFOPLIST_FILE = SRGTimeCheatCapturerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -615,11 +640,15 @@
 			baseConfigurationReference = 21CDAD055DB2392E11530021 /* Pods-SRGTimeCheatCapturerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQ7DK47Y9S;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/../Library/ios-ntp-master/ios-ntp-lib/ios-ntp.pch";
 				INFOPLIST_FILE = SRGTimeCheatCapturerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

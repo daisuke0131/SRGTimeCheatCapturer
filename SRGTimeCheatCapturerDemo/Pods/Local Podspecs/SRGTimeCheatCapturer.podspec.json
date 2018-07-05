@@ -1,6 +1,6 @@
 {
   "name": "SRGTimeCheatCapturer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "SRGTimeCheatCapturer can validate device time and capture time cheaters by ntp client.",
   "homepage": "https://github.com/kazu0620/SRGTimeCheatCapturer",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "tag": "0.0.1"
   },
   "platforms": {
-    "ios": "6.0"
+    "ios": "9.0"
   },
   "source_files": [
     "SRGTimeCheatCapturer/**/*.{h,m}",
