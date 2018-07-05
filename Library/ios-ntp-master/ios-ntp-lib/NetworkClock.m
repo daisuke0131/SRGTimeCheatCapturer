@@ -254,6 +254,7 @@
     short           usefulCount = 0;
 
     for (NetAssociation * timeAssociation in sortedArray) {
+        if ([timeAssociation isEqual:[NSNull null]]) continue;
         if (timeAssociation.trusty) {
             usefulCount++;
             timeIntervalSinceDeviceTime += timeAssociation.offset;
