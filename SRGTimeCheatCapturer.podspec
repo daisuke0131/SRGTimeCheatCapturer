@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SRGTimeCheatCapturer"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "SRGTimeCheatCapturer can validate device time and capture time cheaters by ntp client."
   s.homepage     = "https://github.com/kazu0620/SRGTimeCheatCapturer"
   s.license      = "MIT"

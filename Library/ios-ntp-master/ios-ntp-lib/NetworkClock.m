@@ -178,6 +178,7 @@
   └──────────────────────────────────────────────────────────────────────────────────────────────────┘*/
     for (NSString * server in hostAddresses) {
         NetAssociation *    timeAssociation = [[NetAssociation alloc] init:server];
+        if ([timeAssociation isEqual:[NSNull null]]) continue;
 
         [timeAssociations addObject:timeAssociation];
         [timeAssociation enable];                               // starts are randomized internally
